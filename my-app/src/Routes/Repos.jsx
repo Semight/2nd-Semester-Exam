@@ -52,7 +52,7 @@ function Repos() {
                 .slice(pagesVisited, pagesVisited + reposPerPage)
                 .map((repo) => {
                   return (
-                    <Link to={`/repos/${repo.name}`} className="repo-links">
+                    <Link key={repo.id} to={`/repos/${repo.name}`} className="repo-links">
                     <div key={repo.id} className="each-repo">
                       
                         {repo.name}
