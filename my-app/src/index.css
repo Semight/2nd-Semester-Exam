@@ -341,18 +341,21 @@ h2 {
 
     .main-flex{
       display: block;
+      width: 100%;
+      height: 100vh;
+    } 
+    
+    .home{
+      height: 100vh;
+      display: block;
     }
-
+    
     .home img {
       width: 60%;
       height: 100vh;
       margin-left: 1%;
       margin-bottom: 40%;
       
-    }
-
-    .home{
-      height: 100vh;
     }
 
     .home-message {
@@ -420,20 +423,21 @@ h2 {
 }
 
 .home-message {
-  width: 70%;
+  width: 90%;
   padding: 7px;
   background-color: rgb(16, 100, 156);
   color: white;
   box-shadow: 1.2px 2px 2px #918f8f;
   border-radius: 10px;
-  margin-left: -35%;
-  margin-bottom: -20%;
+  margin-left: 4%;
+  margin-top: -45%;
 }
 
 .home img {
-  
-  height: 90vh;
-  margin-left: 1%;
+    height: 20rem;
+    width: 22rem;
+    padding-top: 0rem;
+    margin-left: 4%;
 }
 
 .Link h2{
